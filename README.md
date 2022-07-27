@@ -12,14 +12,16 @@
 
 ## Project Description
 
-Almost half of Medicaid spending is attributed to behavioral health conditions, including substance use disorders (SUD). Transgender and gender diverse people are disproportionally affected by overdose and SUD, including alcohol use, tobacco use, and other illicit drug use. As Medicaid expenditures for SUD treatment grows, it is increasingly important to understand the drivers of initiation and treatment of SUD among transgender patients in order to develop targeted strategies for treatment. This first study of SUD treatment among transgender Medicaid beneficiaries using insurance claims data from 2010 to 2020. We provide insights into similiaries and differences in initiation and engagement with treatment between transgender and cisgender beneficiaries. Our primary hypothesis is that transgender beneficiaries had lower levels of initiation and treatment for SUD.
+Almost half of Medicaid spending is attributed to behavioral health conditions, including substance use disorders (SUD). Transgender and gender diverse people are disproportionally affected by overdose and SUD, including alcohol use, tobacco use, and other illicit drug use. As Medicaid expenditures for SUD treatment grows, it is increasingly important to understand the drivers of SUD treatment initiation among transgender patients in order to develop targeted strategies for treatment. This is the first study of SUD treatment among transgender Medicaid beneficiaries using insurance claims data from 2010 to 2020. We test differences in initiation and engagement with treatment between transgender and cisgender beneficiaries. Our primary hypothesis is that transgender beneficiaries had lower levels of initiation and treatment for SUD.
 
 ## Table of Contents
+- [Requirements](#requirements)
 - [Project Description](#project-description)
 - [Table of contents](#table-of-contents)
 - [Requirements](#requirements)
-- [Data](#data)
-
+- [Producing Data](#data)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Machine Learning](#machine-learning)
 
 ## Requirements
 [(Back to top)](#table-of-contents)
@@ -36,27 +38,31 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 * **SQLAlcemy (`pip install SQLAlchemy`)**
 * **Psycopg (`pip install psycopg2`)**
 
-## Data 
+## Producing Data 
 
-- Existing Data on Server
+The final data is produced by using the available files, and creating additional variables with our user-created dictionaries. 
+
+- Available files
   - Claims (`arp120.claims`)
   - Enrollment (`arp120.mem_detail`)
   - [CDPS risk score](https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/HealthCareFinancingReview/List-of-Past-Articles-Items/CMS1191627) (`arp120.cdps`)
   - [Initiation and Engagement with Treatment HEDIS Measures](https://www.ncqa.org/hedis/measures/initiation-and-engagement-of-alcohol-and-other-drug-abuse-or-dependence-treatment/) (`arp120.j_iet_mem`)
   
-- User Created Data
+- User-created data
   - Transgender Dx
   - Chronic Pain Dx
   - Substance Use Disorder Dx
   - Severe Mental Health Dx
 
-## Approach
+## Exploratory Data Analysis
 
-- Data wrangling
-- Data visualization
-- Modeling
-  - Logistic regression
-  - Oaxaca Blinder
-  - Machine Learning
-- Curation for publication
+- Descriptive Statistics
+- Data Visualization
 
+## Machine Learning
+
+- Data pre-processing
+- Split into test and training sets
+- Build Models
+- Evaluate
+- Finalize
