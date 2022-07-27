@@ -50,9 +50,13 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
   - Substance Use Disorder Dx
   - Severe Mental Health Dx
 
-## Descriptive Statistics
+## Approach
 
-## The Logistic Regression: A Public Health Star
-
-## Machine Learning
+- Data wrangling
+- Data visualization
+- Modeling
+  - Logistic regression
+  - Oaxaca Blinder
+  - Machine Learning
+- Curation for publication
 
