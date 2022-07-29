@@ -40,7 +40,7 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 
 ## Producing Data 
 
-The final data is produced by using the available files, and creating additional variables with our user-created dictionaries. 
+The analytic dataset is produced with [this code](trans_sud_clean.ipynb), using the available files, and creating additional variables with our user-created dictionaries. 
 
 - Available files
   - Claims (`arp120.claims`)
