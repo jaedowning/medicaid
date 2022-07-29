@@ -19,8 +19,8 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 - [Requirements](#requirements)
 - [Table of contents](#table-of-contents)
 - [Requirements](#requirements)
-- [Producing Data](#data)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Producing Data](#producing-data)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Machine Learning](#machine-learning)
 
 ## Requirements
@@ -39,6 +39,7 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 * **Psycopg (`pip install psycopg2`)**
 
 ## Producing Data 
+[(Back to top)](#table-of-contents)
 
 [This code](trans_sud_clean.ipynb) produces the data using the available files, and creating additional variables with our user-created dictionaries. 
 
@@ -55,6 +56,7 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
   - Severe Mental Health Dx
 
 ## Exploratory Data Analysis
+[(Back to top)](#table-of-contents)
 
 [This code](trans_sud_eda.ipynb) investigates the quality and structure of the data, and produces visualizations.
 
@@ -63,6 +65,7 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 - Logistic Regression
 
 ## Machine Learning
+[(Back to top)](#table-of-contents)
 
 [This code](trans_sud_ml.ipynb) presents models to predict SUD treatment.
 
@@ -71,3 +74,9 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 - Build Models
 - Evaluate
 - Finalize
+
+## Funding & Collaborators
+
+This project is funded by a [K01 grant](https://reporter.nih.gov/search/TwUZdye2PkK94TZ0KQCM5A/project-details/10432100) from the National Institute on Drug Abuse.
+
+Data and support are provided by [The Center for Health Systems Effectiveness](https://www.ohsu.edu/center-for-health-systems-effectiveness) at OHSU.
