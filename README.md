@@ -15,8 +15,8 @@
 Almost half of Medicaid spending is attributed to behavioral health conditions, including substance use disorders (SUD). Transgender and gender diverse people are disproportionally affected by overdose and SUD, including alcohol use, tobacco use, and other illicit drug use. As Medicaid expenditures for SUD treatment grows, it is increasingly important to understand the drivers of SUD treatment initiation among transgender patients in order to develop targeted strategies for treatment. This is the first study of SUD treatment among transgender Medicaid beneficiaries using insurance claims data from 2010 to 2020. We test differences in initiation and engagement with treatment between transgender and cisgender beneficiaries. Our primary hypothesis is that transgender beneficiaries had lower levels of initiation and treatment for SUD.
 
 ## Table of Contents
-- [Requirements](#requirements)
 - [Project Description](#project-description)
+- [Requirements](#requirements)
 - [Table of contents](#table-of-contents)
 - [Requirements](#requirements)
 - [Producing Data](#data)
@@ -56,6 +56,7 @@ The analytic dataset is produced with [this code](trans_sud_clean.ipynb), using 
 
 ## Exploratory Data Analysis
 
+Data is investigated for its structure and insights are produced with [this code](trans_sud_eda.ipynb)
 - Descriptive Statistics
 - Data Visualization
 
