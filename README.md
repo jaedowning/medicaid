@@ -59,8 +59,11 @@ The analytic dataset is produced with [this code](trans_sud_clean.ipynb), using 
 Data is investigated for its structure and insights are produced with [this code](trans_sud_eda.ipynb)
 - Descriptive Statistics
 - Data Visualization
+- Logistic Regression
 
 ## Machine Learning
+
+Supervised models are run with [this code](trans_sud_ml.ipynb)
 
 - Data pre-processing
 - Split into test and training sets
