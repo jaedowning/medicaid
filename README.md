@@ -40,7 +40,7 @@ Almost half of Medicaid spending is attributed to behavioral health conditions, 
 
 ## Producing Data 
 
-The analytic dataset is produced with [this code](trans_sud_clean.ipynb), using the available files, and creating additional variables with our user-created dictionaries. 
+[This code](trans_sud_clean.ipynb) produces the data using the available files, and creating additional variables with our user-created dictionaries. 
 
 - Available files
   - Claims (`arp120.claims`)
@@ -56,14 +56,15 @@ The analytic dataset is produced with [this code](trans_sud_clean.ipynb), using 
 
 ## Exploratory Data Analysis
 
-Data is investigated for its structure and insights are produced with [this code](trans_sud_eda.ipynb)
+[This code](trans_sud_eda.ipynb) investigates the quality and structure of the data, and produces visualizations.
+
 - Descriptive Statistics
 - Data Visualization
 - Logistic Regression
 
 ## Machine Learning
 
-Supervised models are run with [this code](trans_sud_ml.ipynb)
+[This code](trans_sud_ml.ipynb) presents models to predict SUD treatment.
 
 - Data pre-processing
 - Split into test and training sets
